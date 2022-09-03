@@ -47,7 +47,7 @@ But luckily, to escape the `data/` directory restriction a simple `Path Traversa
 http://climexp.knmi.nl/select.cgi?data/../../../../../../../../../etc/hostname
 ```
 
-![Final Payload](/img/posts/dutchbb_lfi.png "Including /etc/hostname via path traversal")
+![Final Payload](/img/posts/dutchbb_lfi.png)
 
 >From here on, an attacker might have gained `remote code execution` on the remote system by exploiting `Log Poisioning` techniques. 
 
@@ -58,7 +58,7 @@ Within my report, I suggested the following two mitigations:
 2. Passing the parameter through a `basename` function, so that `data/../../../../../../../../../etc/hostname` would get turned into `hostname`
  
 ## Disclosure Timeline
-26.08.2022 - Reported the vulnerability to NCSC
-26.08.2022 - NCSC confirmed the vulnerability and informed the responsible organisation
-30.08.2022 - NCSC stated, the vulnerability has been fixed and asked for confirmation (was fixed)
-03.09.2022 - I received the Dutch bug bounty shirt
+- 26.08.2022 - Reported the vulnerability to NCSC
+- 26.08.2022 - NCSC confirmed the vulnerability and informed the responsible organisation
+- 30.08.2022 - NCSC stated, the vulnerability has been fixed and asked for confirmation (was fixed)
+- 03.09.2022 - I received the Dutch bug bounty shirt
