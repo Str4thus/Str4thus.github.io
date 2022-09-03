@@ -1,27 +1,19 @@
-title: Str4thus' Cyber Adventures
-description: It's dangerous to go alone!
+title:              Str4thus' Cyber Adventure
+email:              info@strathmann-cybersecurity.com
+description:        It is dangerous to go alone!
+author:             Str4thus
+baseurl:            "/"
+url:                "https://str4thus.github.io"
 
-url: https://str4thus.github.io
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+# Social Profiles
+twitter_username:   Str4thus
+github_username:    Str4thus
 
-# Header Option
-# header: large
-
-markdown: kramdown
-highlighter: rouge
-plugins: [jekyll-paginate]
-paginate: 5
-
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-
-social:
-  github: str4thus
-  twitter: str4thus
-  email: info@strathmann-cybersecurity.com
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
