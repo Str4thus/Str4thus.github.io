@@ -1,19 +1,34 @@
-# Site Build Settings
+title: Long Haul
+description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-# jekyll-paginate configuration
-paginate:            5
+url: https://long-haul.netlify.app
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+# Header Option
+# header: large
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Millennial"
-description:	       "a minimalist Jekyll theme for running a blog or publication"
-author:              "Paul Le"
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
 
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+social:
+  github: brianmaierjr
+  twitter: brianmaierjr
+  facebook: brianmaierjr
+  email: brimaidesigns@gmail.com
+  linkedin: brianmaierjr
+
+google_analytics: "UA-58263416-1"
+
+disqus:
+    shortname: brianmaierjr
