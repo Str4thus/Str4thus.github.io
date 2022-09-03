@@ -47,8 +47,7 @@ But luckily, to escape the `data/` directory restriction a simple `Path Traversa
 http://climexp.knmi.nl/select.cgi?data/../../../../../../../../../etc/hostname
 ```
 
-![Final Payload](/img/posts/dutchbb_lfi.png)
-**Including /etc/hostname via path traversal**
+![Final Payload](/img/posts/dutchbb_lfi.png "Including /etc/hostname via path traversal")
 
 >From here on, an attacker might have gained `remote code execution` on the remote system by exploiting `Log Poisioning` techniques. 
 
