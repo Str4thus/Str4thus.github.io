@@ -8,6 +8,7 @@ url:                "https://str4thus.github.io"
 # Social Profiles
 twitter_username:   Str4thus
 github_username:    Str4thus
+linkedin_username:  jesse-strathmann-b29654213
 
 # Build settings
 markdown:           kramdown
@@ -21,5 +22,4 @@ plugins:
 
 kramdown:
   input: GFM
-  auto_ids: true
   syntax_highlighter: rouge
