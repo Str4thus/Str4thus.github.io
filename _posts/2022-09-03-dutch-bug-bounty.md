@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dutch Bug Bounty: A Local File Inclusion"
-date: 2022-08-03 23:45:13 -0400
+date: 2022-09-02 23:45:13 -0400
 background: '/img/posts/02.jpg'
 ---
 
