@@ -7,7 +7,7 @@ background: '/img/posts/02.jpg'
 
 Through an unnamed parameter that gets passed as a filename to a shell script on the serverside, arbitrary files could be read from the remote system. However, the filename had to start with `data/`, as only files from this folder should be included. This restriction was bypassed by using a simple Path Traversal payload, resulting in:
 
-```bash
+```sh
 climexp.knmi.nl/select.cgi?data/../../../../../etc/hostname
 ```
 
@@ -26,7 +26,7 @@ The website allows users to create their own `form fields` that then can be shar
 
 ![Normal Behaviour](/img/posts/path_url.png)
 
-```python
+```py
 print("hi")
 ```
 
