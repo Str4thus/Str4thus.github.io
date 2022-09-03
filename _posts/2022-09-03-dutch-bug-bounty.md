@@ -24,7 +24,7 @@ I continued to manually look for some fragile web apps until I finally stumbled 
 ## The Vulnerability
 The website allows users to create their own `form fields` that then can be shared with other users. Upon inspecting the `form field`, I quickly noticed that there is a local path within the URL that seems to contain data related to the field I just created.
 
-![](img/posts/path_url.png)
+![](/img/posts/path_url.png)
 
 ```python
 print("hi")
