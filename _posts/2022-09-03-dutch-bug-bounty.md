@@ -52,6 +52,7 @@ http://climexp.knmi.nl/select.cgi?data/../../../../../../../../../etc/hostname
 Within my report, I suggested the following two mitigations:
 
 1. Proper sanitazation of the parameter (filtering out `../` to prevent path traversal in the upward direction)
+
 2. Passing the parameter through a `basename` function, so that `data/../../../../../../../../../etc/hostname` would get turned into `hostname`
  
 ## Disclosure Timeline
