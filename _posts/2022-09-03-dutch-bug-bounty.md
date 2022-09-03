@@ -46,7 +46,7 @@ http://climexp.knmi.nl/select.cgi?data/../../../../../../../../../etc/hostname
 
 ![Final Payload](/img/posts/dutchbb_lfi.png)
 
->From here on, an attacker might have gained `remote code execution` on the remote system by exploiting `Log Poisioning` techniques. 
+>From here on, an attacker might have gained `remote code execution` on the remote system by exploiting the file inclusion via `Log Poisioning` techniques. However, I did not actively try it, as it would have involved accessing sensitive data from the system and thus was out of scope for this bug bounty. 
 
 ## Suggested Mitigations
 Within my report, I suggested the following two mitigations:
