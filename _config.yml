@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Str4thus' Cyber Adventures
+description: It's dangerous to go alone!
 
-url: https://long-haul.netlify.app
+url: https://str4thus.github.io
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -22,13 +22,6 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
-
-google_analytics: "UA-58263416-1"
-
-disqus:
-    shortname: brianmaierjr
+  github: str4thus
+  twitter: str4thus
+  email: info@strathmann-cybersecurity.com
