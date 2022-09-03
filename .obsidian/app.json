@@ -1,6 +1,7 @@
 {
   "attachmentFolderPath": "img/posts",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
-  "promptDelete": false
+  "newLinkFormat": "absolute",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

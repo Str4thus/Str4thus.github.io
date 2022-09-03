@@ -5,7 +5,6 @@ date: 2022-09-02 23:45:13 -0400
 background: '/img/posts/02.jpg'
 ---
 
-## TL;DR
 Through an unnamed parameter that gets passed as a filename to a shell script on the serverside, arbitrary files could be read from the remote system. However, the filename had to start with `data/`, as only files from this folder should be included. This restriction was bypassed by using a simple Path Traversal payload, resulting in:
 
 ```bash
@@ -25,7 +24,7 @@ I continued to manually look for some fragile web apps until I finally stumbled 
 ## The Vulnerability
 The website allows users to create their own `form fields` that then can be shared with other users. Upon inspecting the `form field`, I quickly noticed that there is a local path within the URL that seems to contain data related to the field I just created.
 
-![Normal behaviour](../img/posts/Pasted%20image%2020220904002852.png)
+![](img/posts/path_url.png)
 
 ```python
 print("hi")
